@@ -40,8 +40,8 @@ The analysis layer provides strategic intelligence across three main pillars:
 
 ## 🚀 How to Use
 1. Clone this repository.
-2. Run `01_database_setup.sql` to create the schema.
+2. Run `database_architecture.sql` to create the schema.
 3. Import your raw CSV data into a temporary table named `unicorn_companies`.
-4. Run `02_data_transformation.sql` to clean and populate the production tables.
-5. Execute `03_market_insights.sql` to generate business reports.
+4. Run `data_cleaning.sql` to clean and populate the production tables.
+5. Execute `insights.sql` to generate business reports.
 
